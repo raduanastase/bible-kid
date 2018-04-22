@@ -19,8 +19,6 @@ export default class BootScene extends Scene {
   }
 
   create() {
-    console.log('BOOTED');
-
     this.scene.start('TitleScene');
   }
 }
